@@ -8,8 +8,8 @@ var string_number="";
 
 btn_number.forEach(element => {
     element.addEventListener('click', function(){
-        let number = parseInt(element.textContent); 
-        input.value = "" + (parseFloat(input.value + number));
+        let number = element.textContent; 
+        input.value = "" +input.value + number;
     });
 });
 

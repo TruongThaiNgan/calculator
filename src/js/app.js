@@ -83,3 +83,11 @@ const btn_float = document.querySelector(".btn-float");
 btn_float.addEventListener('click', function(element){
     input.value += ".";
 });
+
+function isNumberKey(evt)
+    {
+       var charCode = evt.which;
+       if (charCode > 31 && (charCode < 42 || charCode > 57))
+          return false;
+       return true;
+    }

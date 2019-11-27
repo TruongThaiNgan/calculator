@@ -35,16 +35,34 @@ body .calculator {
       background-color: #dfdfdf; }
     body .calculator .btn:active {
       background-color: #adadad; }
-  body .calculator .btn-kq, body .calculator .btn-clear {
+  body .calculator .btn-clear {
     border: black 1px solid;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     cursor: pointer; }
-    body .calculator .btn-kq:hover, body .calculator .btn-clear:hover {
+    body .calculator .btn-clear:hover {
       background-color: #dfdfdf; }
-    body .calculator .btn-kq:active, body .calculator .btn-clear:active {
+    body .calculator .btn-clear:active {
       background-color: #adadad; }
+
+body .btn-kq {
+  border: black 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  color: red;
+  height: 80px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 1px; }
+  body .btn-kq:hover {
+    background-color: #dfdfdf; }
+  body .btn-kq:active {
+    background-color: #adadad; }
 
 /*# sourceMappingURL=style.css.map */

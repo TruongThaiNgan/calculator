@@ -41,7 +41,7 @@ body{
                 background-color: rgb(173, 173, 173);
             }
         }
-        .btn-kq, .btn-clear{
+        .btn-clear{
             border: black 1px solid;
             display: flex;
             flex-direction: row;
@@ -54,6 +54,26 @@ body{
             &:active{
                 background-color: rgb(173, 173, 173);
             }
+        }
+    }
+    .btn-kq{
+        border: black 1px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        color: red;
+        height: 80px;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 30px;
+        margin-top: 1px;
+        &:hover{
+            background-color: rgb(223, 223, 223);
+        }
+        &:active{
+            background-color: rgb(173, 173, 173);
         }
     }
 }
